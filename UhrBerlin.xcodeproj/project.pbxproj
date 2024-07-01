@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61AA5E132C3269A90055025B /* UhrBerlinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5E122C3269A90055025B /* UhrBerlinApp.swift */; };
+		61AA5E152C3269A90055025B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5E142C3269A90055025B /* ContentView.swift */; };
+		61AA5E172C3269AA0055025B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5E162C3269AA0055025B /* Assets.xcassets */; };
+		61AA5E1A2C3269AA0055025B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5E192C3269AA0055025B /* Preview Assets.xcassets */; };
+		61AA5E252C3269AA0055025B /* UhrBerlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5E242C3269AA0055025B /* UhrBerlinTests.swift */; };
+		61AA5E2F2C3269AA0055025B /* UhrBerlinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5E2E2C3269AA0055025B /* UhrBerlinUITests.swift */; };
+		61AA5E312C3269AA0055025B /* UhrBerlinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5E302C3269AA0055025B /* UhrBerlinUITestsLaunchTests.swift */; };
+		61AA5E3E2C3269F90055025B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5E3D2C3269F90055025B /* .gitignore */; };
+		61AA5E412C326A950055025B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5E402C326A950055025B /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61AA5E212C3269AA0055025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61AA5E072C3269A90055025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61AA5E0E2C3269A90055025B;
+			remoteInfo = UhrBerlin;
+		};
+		61AA5E2B2C3269AA0055025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61AA5E072C3269A90055025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61AA5E0E2C3269A90055025B;
+			remoteInfo = UhrBerlin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61AA5E0F2C3269A90055025B /* UhrBerlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UhrBerlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AA5E122C3269A90055025B /* UhrBerlinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UhrBerlinApp.swift; sourceTree = "<group>"; };
+		61AA5E142C3269A90055025B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61AA5E162C3269AA0055025B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61AA5E192C3269AA0055025B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61AA5E1B2C3269AA0055025B /* UhrBerlin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UhrBerlin.entitlements; sourceTree = "<group>"; };
+		61AA5E202C3269AA0055025B /* UhrBerlinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UhrBerlinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AA5E242C3269AA0055025B /* UhrBerlinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UhrBerlinTests.swift; sourceTree = "<group>"; };
+		61AA5E2A2C3269AA0055025B /* UhrBerlinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UhrBerlinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AA5E2E2C3269AA0055025B /* UhrBerlinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UhrBerlinUITests.swift; sourceTree = "<group>"; };
+		61AA5E302C3269AA0055025B /* UhrBerlinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UhrBerlinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61AA5E3D2C3269F90055025B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		61AA5E3F2C326A460055025B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		61AA5E402C326A950055025B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61AA5E0C2C3269A90055025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AA5E1D2C3269AA0055025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AA5E272C3269AA0055025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61AA5E062C3269A90055025B = {
+			isa = PBXGroup;
+			children = (
+				61AA5E402C326A950055025B /* LICENSE */,
+				61AA5E3F2C326A460055025B /* README.md */,
+				61AA5E3D2C3269F90055025B /* .gitignore */,
+				61AA5E112C3269A90055025B /* UhrBerlin */,
+				61AA5E232C3269AA0055025B /* UhrBerlinTests */,
+				61AA5E2D2C3269AA0055025B /* UhrBerlinUITests */,
+				61AA5E102C3269A90055025B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61AA5E102C3269A90055025B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5E0F2C3269A90055025B /* UhrBerlin.app */,
+				61AA5E202C3269AA0055025B /* UhrBerlinTests.xctest */,
+				61AA5E2A2C3269AA0055025B /* UhrBerlinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61AA5E112C3269A90055025B /* UhrBerlin */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5E122C3269A90055025B /* UhrBerlinApp.swift */,
+				61AA5E142C3269A90055025B /* ContentView.swift */,
+				61AA5E162C3269AA0055025B /* Assets.xcassets */,
+				61AA5E1B2C3269AA0055025B /* UhrBerlin.entitlements */,
+				61AA5E182C3269AA0055025B /* Preview Content */,
+			);
+			path = UhrBerlin;
+			sourceTree = "<group>";
+		};
+		61AA5E182C3269AA0055025B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5E192C3269AA0055025B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61AA5E232C3269AA0055025B /* UhrBerlinTests */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5E242C3269AA0055025B /* UhrBerlinTests.swift */,
+			);
+			path = UhrBerlinTests;
+			sourceTree = "<group>";
+		};
+		61AA5E2D2C3269AA0055025B /* UhrBerlinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5E2E2C3269AA0055025B /* UhrBerlinUITests.swift */,
+				61AA5E302C3269AA0055025B /* UhrBerlinUITestsLaunchTests.swift */,
+			);
+			path = UhrBerlinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61AA5E0E2C3269A90055025B /* UhrBerlin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61AA5E342C3269AA0055025B /* Build configuration list for PBXNativeTarget "UhrBerlin" */;
+			buildPhases = (
+				61AA5E0B2C3269A90055025B /* Sources */,
+				61AA5E0C2C3269A90055025B /* Frameworks */,
+				61AA5E0D2C3269A90055025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UhrBerlin;
+			productName = UhrBerlin;
+			productReference = 61AA5E0F2C3269A90055025B /* UhrBerlin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61AA5E1F2C3269AA0055025B /* UhrBerlinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61AA5E372C3269AA0055025B /* Build configuration list for PBXNativeTarget "UhrBerlinTests" */;
+			buildPhases = (
+				61AA5E1C2C3269AA0055025B /* Sources */,
+				61AA5E1D2C3269AA0055025B /* Frameworks */,
+				61AA5E1E2C3269AA0055025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61AA5E222C3269AA0055025B /* PBXTargetDependency */,
+			);
+			name = UhrBerlinTests;
+			productName = UhrBerlinTests;
+			productReference = 61AA5E202C3269AA0055025B /* UhrBerlinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61AA5E292C3269AA0055025B /* UhrBerlinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61AA5E3A2C3269AA0055025B /* Build configuration list for PBXNativeTarget "UhrBerlinUITests" */;
+			buildPhases = (
+				61AA5E262C3269AA0055025B /* Sources */,
+				61AA5E272C3269AA0055025B /* Frameworks */,
+				61AA5E282C3269AA0055025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61AA5E2C2C3269AA0055025B /* PBXTargetDependency */,
+			);
+			name = UhrBerlinUITests;
+			productName = UhrBerlinUITests;
+			productReference = 61AA5E2A2C3269AA0055025B /* UhrBerlinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61AA5E072C3269A90055025B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					61AA5E0E2C3269A90055025B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					61AA5E1F2C3269AA0055025B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 61AA5E0E2C3269A90055025B;
+					};
+					61AA5E292C3269AA0055025B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 61AA5E0E2C3269A90055025B;
+					};
+				};
+			};
+			buildConfigurationList = 61AA5E0A2C3269A90055025B /* Build configuration list for PBXProject "UhrBerlin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61AA5E062C3269A90055025B;
+			productRefGroup = 61AA5E102C3269A90055025B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61AA5E0E2C3269A90055025B /* UhrBerlin */,
+				61AA5E1F2C3269AA0055025B /* UhrBerlinTests */,
+				61AA5E292C3269AA0055025B /* UhrBerlinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61AA5E0D2C3269A90055025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AA5E1A2C3269AA0055025B /* Preview Assets.xcassets in Resources */,
+				61AA5E3E2C3269F90055025B /* .gitignore in Resources */,
+				61AA5E412C326A950055025B /* LICENSE in Resources */,
+				61AA5E172C3269AA0055025B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AA5E1E2C3269AA0055025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AA5E282C3269AA0055025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61AA5E0B2C3269A90055025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AA5E152C3269A90055025B /* ContentView.swift in Sources */,
+				61AA5E132C3269A90055025B /* UhrBerlinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AA5E1C2C3269AA0055025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AA5E252C3269AA0055025B /* UhrBerlinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AA5E262C3269AA0055025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AA5E312C3269AA0055025B /* UhrBerlinUITestsLaunchTests.swift in Sources */,
+				61AA5E2F2C3269AA0055025B /* UhrBerlinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61AA5E222C3269AA0055025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61AA5E0E2C3269A90055025B /* UhrBerlin */;
+			targetProxy = 61AA5E212C3269AA0055025B /* PBXContainerItemProxy */;
+		};
+		61AA5E2C2C3269AA0055025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61AA5E0E2C3269A90055025B /* UhrBerlin */;
+			targetProxy = 61AA5E2B2C3269AA0055025B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61AA5E322C3269AA0055025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61AA5E332C3269AA0055025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		61AA5E352C3269AA0055025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UhrBerlin/UhrBerlin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UhrBerlin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonsodelarte.UhrBerlin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		61AA5E362C3269AA0055025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UhrBerlin/UhrBerlin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UhrBerlin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonsodelarte.UhrBerlin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		61AA5E382C3269AA0055025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonsodelarte.UhrBerlinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UhrBerlin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UhrBerlin";
+			};
+			name = Debug;
+		};
+		61AA5E392C3269AA0055025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonsodelarte.UhrBerlinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UhrBerlin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UhrBerlin";
+			};
+			name = Release;
+		};
+		61AA5E3B2C3269AA0055025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonsodelarte.UhrBerlinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UhrBerlin;
+			};
+			name = Debug;
+		};
+		61AA5E3C2C3269AA0055025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonsodelarte.UhrBerlinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UhrBerlin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61AA5E0A2C3269A90055025B /* Build configuration list for PBXProject "UhrBerlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AA5E322C3269AA0055025B /* Debug */,
+				61AA5E332C3269AA0055025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61AA5E342C3269AA0055025B /* Build configuration list for PBXNativeTarget "UhrBerlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AA5E352C3269AA0055025B /* Debug */,
+				61AA5E362C3269AA0055025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61AA5E372C3269AA0055025B /* Build configuration list for PBXNativeTarget "UhrBerlinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AA5E382C3269AA0055025B /* Debug */,
+				61AA5E392C3269AA0055025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61AA5E3A2C3269AA0055025B /* Build configuration list for PBXNativeTarget "UhrBerlinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AA5E3B2C3269AA0055025B /* Debug */,
+				61AA5E3C2C3269AA0055025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61AA5E072C3269A90055025B /* Project object */;
+}
